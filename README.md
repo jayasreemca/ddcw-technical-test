@@ -39,7 +39,5 @@ Input : {
 ## GET Homepage
 ```
 http://localhost:1235/backend/showbalance
-Input : {
-	"message": "100.00"
-}
+
 ```
