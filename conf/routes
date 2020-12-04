@@ -1,0 +1,8 @@
+# Message Controller
+POST        /backend/print        controllers.MessageController.printMessage
+GET        /backend/showbalance  controllers.MessageController.showbalance
+POST        /backend/deposit      controllers.MessageController.deposit
+PUT        /backend/withdraw     controllers.MessageController.withdraw
+
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file         controllers.Assets.versioned(path="/public", file: Asset)
