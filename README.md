@@ -36,7 +36,7 @@ Input : {
 }
 ```
 
-## GET Homepage
+## GET ShowBalance
 ```
 http://localhost:1235/backend/showbalance
 
